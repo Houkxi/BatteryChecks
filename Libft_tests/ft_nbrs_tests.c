@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   testeur.h                                          :+:      :+:    :+:   */
+/*   ft_nbrs_tests.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmanley <mmanley@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/12 15:52:00 by mmanley           #+#    #+#             */
-/*   Updated: 2018/05/14 14:37:46 by mmanley          ###   ########.fr       */
+/*   Created: 2018/05/14 14:36:27 by mmanley           #+#    #+#             */
+/*   Updated: 2018/05/14 15:56:15 by mmanley          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TESTEUR_H
-# define TESTEUR_H
-# include "libft.h"
+#include "testeur.h"
 
-void			ft_print();
-void			lst_ch();
-void			mems();
-void			nbrs();
-void			put();
-void			srcs();
-void			strs();
-
-#endif
+void			nbrs()
+{
+	ft_printf("TEST IN PROGRESS!!\n");
+}
