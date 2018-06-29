@@ -1,0 +1,20 @@
+0000000100000c98	e8 53 8a 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+000000010000142a	e8 c1 82 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+000000010000143d	48 8d 3d 80 84 00 00 	leaq	0x8480(%rip), %rdi ## literal pool for: "Error malloc"
+0000000100001486	48 8d 3d 37 84 00 00 	leaq	0x8437(%rip), %rdi ## literal pool for: "Error malloc"
+0000000100001ca3	48 8d 3d 1a 7c 00 00 	leaq	0x7c1a(%rip), %rdi ## literal pool for: "Error malloc"
+0000000100001d80	48 8d 3d 2e 7d 00 00 	leaq	0x7d2e(%rip), %rdi ## literal pool for: "Error malloc in split"
+0000000100001ec3	48 8d 3d fa 79 00 00 	leaq	0x79fa(%rip), %rdi ## literal pool for: "Error malloc"
+00000001000020ed	e8 fe 75 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+0000000100002100	48 8d 3d fe 79 00 00 	leaq	0x79fe(%rip), %rdi ## literal pool for: "Error malloc t_labels"
+0000000100002333	48 8d 3d e1 77 00 00 	leaq	0x77e1(%rip), %rdi ## literal pool for: "Error with malloc"
+000000010000288c	48 8d 3d 31 70 00 00 	leaq	0x7031(%rip), %rdi ## literal pool for: "Error malloc"
+0000000100003c04	48 8d 3d b9 5c 00 00 	leaq	0x5cb9(%rip), %rdi ## literal pool for: "Error malloc"
+0000000100003c38	48 8d 3d 85 5c 00 00 	leaq	0x5c85(%rip), %rdi ## literal pool for: "Error malloc"
+0000000100007b51	e8 9a 1b 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+0000000100007f5d	e8 8e 17 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+000000010000813d	e8 ae 15 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+0000000100008a60	e8 8b 0c 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+0000000100008cdc	e8 0f 0a 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+0000000100008d5a	e8 91 09 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
+0000000100008d94	e8 57 09 00 00 	callq	0x1000096f0 ## symbol stub for: _malloc
