@@ -6,7 +6,7 @@
 /*   By: mmanley <mmanley@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/29 12:15:31 by mmanley           #+#    #+#             */
-/*   Updated: 2018/03/29 15:30:00 by mmanley          ###   ########.fr       */
+/*   Updated: 2018/06/11 20:10:32 by mmanley          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int			flag_checker(char **ac, int av)
 		}
 		else if (sv & 128)
 		{
-			ft_printf("options: abcdefghijklmnopqrstuvwxyz\n");
+			ft_printf("options: raji\n");
 			return (-1);
 		}
 		i++;
