@@ -3,7 +3,7 @@ A checklist for all the functions in my lib.
 Start of the creation of functions and their tests.
 
 
-## For the Corewar
+## For Corewar
 
 ALL these checks are for the assembler program
 
@@ -25,7 +25,7 @@ testor.sh is to be used to verifie leaks/segfaults and what ever debugs you come
 
 Malloc_corrup put your executable as argument it will corrupt your mallocs to make sure they are all protected.
 
-## For the comparing files
+## For comparing files
 
 Steps:
 	Make
