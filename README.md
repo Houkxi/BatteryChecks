@@ -1,11 +1,10 @@
 # BatteryChecks
 A checklist for all the functions in my lib.
-Start of the creation of functions and their tests.
-
+Not finished.
 
 ## For Corewar
 
-ALL these checks are for the assembler program
+Note : *ALL these checks are for the assembler program*
 
 diff_check.sh is to compare two assemblers with only valid files. The idea is to make sure the binary input is correct without having to read it.
 z_corewar and zaz are the two witness executables from the school project.
