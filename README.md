@@ -30,4 +30,6 @@ Steps:
 	Make
 	Add both files to compare as arguments hit enter
 	it will tell you if they are identical or not with a couple of other options to see the differences.
-	I learned later of the 'diff' command. But still a interesting little program to code.
+	I learned later on of the 'diff' command. But still a interesting little program to code.
+
+![File_checker](https://github.com/mmanley42/ressources/blob/master/file_checker.gif)
