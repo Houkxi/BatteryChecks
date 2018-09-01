@@ -6,7 +6,7 @@
 /*   By: mmanley <mmanley@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/12 15:04:27 by mmanley           #+#    #+#             */
-/*   Updated: 2018/05/14 15:59:09 by mmanley          ###   ########.fr       */
+/*   Updated: 2018/09/01 16:00:36 by mmanley          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ void		partitions(int nb)
 	{ft_print, lst_ch, mems, nbrs, put, srcs, strs};
 
 	tests[nb]();
+	ft_printf("SAlut\n");
 }
 
 void		ft_call_fts(int *tab, int size)
@@ -25,9 +26,10 @@ void		ft_call_fts(int *tab, int size)
 	int		i;
 
 	i = 0;
-	while (tab[i] != -1 && i < size)
+	while (tab[i] && tab[i] != -1 && i < size)
 	{
 		partitions(tab[i++]);
+
 	}
 }
 

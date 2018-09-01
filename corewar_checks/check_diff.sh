@@ -5,13 +5,6 @@ FILECOUNT=0
 DIRCOUNT=0
 EXE=$1
 
-
-if [ "$#" -lt "1" ]
-then
-    echo "Usage: ./test2.sh <directory>"
-    exit 0
-fi
-
 #echo "The said files: " $LOCATION
 for item in $LOCATION
 do
