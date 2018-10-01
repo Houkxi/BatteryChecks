@@ -4,11 +4,15 @@ Not finished.
 
 ## For Corewar
 
-```Note : *ALL these checks are for the assembler program*```
+```
+Note : *ALL these checks are for the assembler program*
+```
 **shell_script.sh**:	- Compare two assembors write -h as first argument for hte usage.
 			- Will look in the path given for all *.s files in it and it will compile them. Note that the goal 				of this script is to do the difference between the hexdump of the same cor files in different 				places. 
 			- *If your assemblor send the cor file in the same path as zaz and not int he current directory you				willl have to tweak the paths, advice make it put the cor files in current path for more			simplicity*
-```Old version of previous test```
+```
+Old version of previous test
+```
 **diff_check.sh** is to compare two assemblers with only valid files. The idea is to make sure the binary input is correct without having to read it.
 z_corewar and zaz are the two witness executables from the school project.
 Steps:
@@ -16,7 +20,9 @@ Steps:
 	Change path in diff_check.sh to access that directory, and Change the witness executables' name.
 	Then execute the script with as argument the executable you want to test.
  
-```I gathered these other tests from other poeple:```
+```
+I gathered these other tests from other poeple:
+```
 
 This one is from ```fxbabin```.
 testor.sh is to be used to verifie leaks/segfaults and what ever debugs you come up with.
