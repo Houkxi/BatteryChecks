@@ -1,11 +1,10 @@
 # BatteryChecks
 A checklist for all the functions in my lib.
-Start of the creation of functions and their tests.
+Not finished.
 
+## For Corewar
 
-##For the Corewar##
-
-ALL these checks are for the assembler program
+Note : *ALL these checks are for the assembler program*
 
 diff_check.sh is to compare two assemblers with only valid files. The idea is to make sure the binary input is correct without having to read it.
 z_corewar and zaz are the two witness executables from the school project.
@@ -25,10 +24,12 @@ testor.sh is to be used to verifie leaks/segfaults and what ever debugs you come
 
 Malloc_corrup put your executable as argument it will corrupt your mallocs to make sure they are all protected.
 
-##For the File checker##
+## For comparing files
 
 Steps:
 	Make
 	Add both files to compare as arguments hit enter
 	it will tell you if they are identical or not with a couple of other options to see the differences.
-	I learned later of the 'diff' command. But still a interesting little program to code.
+	I learned later on of the 'diff' command. But still a interesting little program to code.
+
+![File_checker](https://github.com/mmanley42/ressources/blob/master/file_checker.gif)
