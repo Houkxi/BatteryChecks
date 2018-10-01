@@ -6,7 +6,7 @@
 /*   By: mmanley <mmanley@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/29 12:15:31 by mmanley           #+#    #+#             */
-/*   Updated: 2018/06/11 20:10:32 by mmanley          ###   ########.fr       */
+/*   Updated: 2018/09/01 16:23:33 by mmanley          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,10 @@ int			flag_checker(char **ac, int av)
 		}
 		else if (sv & 128)
 		{
-			ft_printf("options: raji\n");
+			ft_printf("options: -[haji] File_1 File_2\n");
+			ft_printf("-a : Show the matching parts\n");
+			ft_printf("-j : Show the differnces\n");
+			ft_printf("-i : tells you at which line\n");
 			return (-1);
 		}
 		i++;
@@ -105,6 +108,7 @@ int			main(int argv, char **argc)
 	if (!f1 || !f2)
 	{
 		ft_printf("Wrong Target Files : Need two different\n");
+		ft_printf("options: -[haji] File_1 File_2\n");
 		return (0);
 	}
 	reader_cmp(f1, f2, 0, sv);
